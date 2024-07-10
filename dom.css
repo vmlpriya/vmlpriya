@@ -1,0 +1,58 @@
+body{
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: rgb(183, 233, 233);
+}
+.table {
+    width: 700px;
+    height: 300px;
+    border-collapse: collapse;
+    background: linear-gradient(to top right,rgb(200, 100, 100),rgb(205, 62, 148));
+    border-radius: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+  .table th, .table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Times New Roman';
+  }
+  .table th {
+    /* background-color: rgb(62, 131, 200); */
+    background: linear-gradient(to top right,rgb(93, 97, 174),rgb(11, 189, 224));
+  }
+  .table button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: rgb(32, 204, 184);
+    border-radius: 5px;
+    border: 2px solid black;
+    font-family: 'Times New Roman';
+  }
+  #studentTable{
+    display: none;
+  }
+  #addTable{
+    background-color: rgb(200, 198, 206);
+    font-family: 'Times New Roman';
+    border: 2px solid black;
+    border-radius: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top:200px;
+    left: 600px;
+  }
+  #addButton{
+    background-color: rgb(200, 198, 206);
+    font-family: 'Times New Roman';
+    border: 2px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 200px;
+    left: 650px;
+  }
